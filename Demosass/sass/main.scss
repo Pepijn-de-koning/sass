@@ -1,0 +1,16 @@
+@import 'var';
+@import 'mixins';
+@import 'reset';
+@import 'navigatie';
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  background-color: $lichter30;
+}
+
+footer {
+  background-color: $lichter50;
+}

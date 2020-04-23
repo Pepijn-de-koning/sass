@@ -1,0 +1,15 @@
+nav
+  background-color: $hoofdkleur
+  ul
+    list-style-type: none
+    a
+      color: #ffffff
+      text-decoration: none
+      display: block
+      padding: $padding/2 $padding
+      &:hover
+        background-color: $lichter50
+        color: #000000
+
+@media screen and (min-width: 30em)
+  @import "naviTablet"
